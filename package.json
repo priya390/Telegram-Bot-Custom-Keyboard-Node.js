@@ -1,21 +1,16 @@
 {
-  "name": "telegram-echo-bot",
-  "version": "0.0.1",
-  "description": "A Telegram bot with Custom Keyboard and which replies you with your message. An Echo Bot.",
+  "name": "telegram-bot-raspberry-pi",
+  "version": "1.0.0",
+  "description": "LED ON/OFF and DHT11 sensor readings using Telegra Bot in Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "TelegramBot",
-    "Telegram",
-    "Node.js",
-    "Echo",
-    "EchoBot"
-  ],
-  "author": "Apal Shah",
-  "license": "ISC",
   "dependencies": {
-    "node-telegram-bot-api": "^0.30.0"
-  }
+    "node-dht-sensor": "0.0.33",
+    "node-telegram-bot-api": "^0.30.0",
+    "onoff": "^1.2.0"
+  },
+  "author": "Priya Patel",
+  "license": "ISC"
 }
